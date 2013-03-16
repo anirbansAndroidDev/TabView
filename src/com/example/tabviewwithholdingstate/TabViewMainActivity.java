@@ -75,21 +75,6 @@ public class TabViewMainActivity extends TabActivity {
 
 
 		tabHost.setCurrentTab(2);
-		
-//		tabHost.setOnTabChangedListener(new OnTabChangeListener()
-//		{
-//			int i = getTabHost().getCurrentTab();
-//
-//			@Override
-//			public void onTabChanged(String tabId) 
-//			{
-//			    if(i == 4)
-//			    {
-//			    	
-//			    }
-//			}
-//			
-//		});
 	}
 }
 

@@ -28,7 +28,7 @@
         <activity android:name=".ExamActivity"></activity>
         <activity android:name=".HomeActivity"></activity>
         <activity android:name=".SyncActivity"></activity>
-        <activity android:name=".ShowProgress"></activity>
+        <activity android:name=".ChildActivityShowProgress"></activity>
     </application>
 
 </manifest>

@@ -20,7 +20,7 @@ public class ProgressActivity extends ActivityGroup
 	}
 	public void showProgress(View v) 
 	{
-		Intent intMyProg = new Intent(this,ShowProgress.class);
+		Intent intMyProg = new Intent(this,ChildActivityShowProgress.class);
 		//startActivity(intMyProg);
 
 //		This will help to open a new activity within existing TabView
