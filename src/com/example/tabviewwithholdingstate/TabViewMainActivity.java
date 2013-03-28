@@ -5,7 +5,9 @@ import android.app.TabActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TabHost.TabSpec;
@@ -75,6 +77,31 @@ public class TabViewMainActivity extends TabActivity {
 
 
 		tabHost.setCurrentTab(2);
+
+
+//		//Tab Changed Event
+//		tabHost.setOnTabChangedListener(new OnTabChangeListener(){
+//			@Override
+//			public void onTabChanged(String tabId) {
+//				Log.i("TabId :", tabId);
+//				setSelectedTabColor(); 
+//			}
+//		});
+//
+//		setSelectedTabColor();
 	}
+
+//	//changing background tabview colors 
+//	private void setSelectedTabColor() 
+//	{
+//		for(int i=0;i<tabHost.getTabWidget().getChildCount();i++)  
+//		{  
+//			//unselected color
+//			tabHost.getTabWidget().getChildAt(i).setBackgroundColor(Color.parseColor("#6E6E6E"));
+//		}  
+//		//selected color
+//		tabHost.getTabWidget().getChildAt(tabHost.getCurrentTab()).setBackgroundColor(Color.parseColor("#E0E0F8")); 
+//	}
+	
 }
 
