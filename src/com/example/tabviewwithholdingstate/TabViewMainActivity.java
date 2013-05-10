@@ -77,6 +77,14 @@ public class TabViewMainActivity extends TabActivity {
 
 
 		tabHost.setCurrentTab(2);
+		
+//	     //Changing tab height===============================
+//	       tabHost.getTabWidget().getChildAt(0).getLayoutParams().height =85;
+//	       tabHost.getTabWidget().getChildAt(1).getLayoutParams().height =85;
+//	       tabHost.getTabWidget().getChildAt(2).getLayoutParams().height =85;
+//	       tabHost.getTabWidget().getChildAt(3).getLayoutParams().height =85;
+//	       tabHost.getTabWidget().getChildAt(4).getLayoutParams().height =85;
+//	     //Changing tab height===============================
 
 
 //		//Tab Changed Event
